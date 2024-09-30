@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+
+h2{
+    font-family: fantasy;
+    color: #f00;
+    text-align: center;
+
+}
+form{
+    border: 2px solid black;
+    margin: auto;
+    width: 70%;
+    text-align: center;
+}
+
+legend {
+    padding: 0px 3px;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+label {
+    width: 110px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 6px;
+}
+   
+em {
+    font-weight: bold;
+    font-style: normal;
+    color:#f00;
+}
+input, textarea {
+    width: 249px;
+}
+   
+textarea {
+    height: 100px;
+}
+   
+input[type=submit]{
+    width: 150px;
+    padding: 10px;
+    
+}
